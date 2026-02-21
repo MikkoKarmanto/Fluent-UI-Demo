@@ -12,6 +12,8 @@ import { LayoutPage } from './pages/LayoutPage';
 import { OverlaysPage } from './pages/OverlaysPage';
 import { TypographyPage } from './pages/TypographyPage';
 import { DataDisplayPage } from './pages/DataDisplayPage';
+import { IconsPage } from './pages/IconsPage';
+import { ComponentPlaygroundPage } from './pages/ComponentPlaygroundPage';
 
 const useStyles = makeStyles({
   app: {
@@ -146,6 +148,22 @@ function AppLayout() {
                   element={
                     <PageWrapper title="Data Display">
                       <DataDisplayPage />
+                    </PageWrapper>
+                  }
+                />
+                <Route
+                  path="/icons"
+                  element={
+                    <PageWrapper title="Icons">
+                      <IconsPage />
+                    </PageWrapper>
+                  }
+                />
+                <Route
+                  path="/playground"
+                  element={
+                    <PageWrapper title="Component Playground">
+                      <ComponentPlaygroundPage />
                     </PageWrapper>
                   }
                 />

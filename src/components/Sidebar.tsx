@@ -89,6 +89,13 @@ const navSections: NavSection[] = [
       { label: 'Data Display', path: '/data-display' },
     ],
   },
+  {
+    title: 'Explore',
+    items: [
+      { label: 'Icons', path: '/icons' },
+      { label: 'Playground', path: '/playground' },
+    ],
+  },
 ];
 
 export function Sidebar() {

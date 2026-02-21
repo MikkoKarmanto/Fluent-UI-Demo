@@ -20,6 +20,8 @@ import {
   Layer20Regular,
   TextCaseLowercase20Regular,
   Table20Regular,
+  Emoji20Regular,
+  Wand20Regular,
 } from '@fluentui/react-icons';
 
 const useStyles = makeStyles({
@@ -123,6 +125,20 @@ const sections: SectionInfo[] = [
     description: 'Avatar, Persona, Table, DataGrid',
     path: '/data-display',
     icon: <Table20Regular />,
+    count: 4,
+  },
+  {
+    title: 'Icons',
+    description: '130+ Fluent icons with search, size reference, Regular vs Filled',
+    path: '/icons',
+    icon: <Emoji20Regular />,
+    count: 130,
+  },
+  {
+    title: 'Playground',
+    description: 'Interactively customize Button, Card, Avatar, Badge with live preview',
+    path: '/playground',
+    icon: <Wand20Regular />,
     count: 4,
   },
 ];
